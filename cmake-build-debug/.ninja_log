@@ -1,8 +1,10 @@
 # ninja log v5
-10	89	7217745222976757	CMakeFiles/Ejercicios_STL.dir/matematicas.cpp.obj	62396996245728e9
-4	690	7217747718181296	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
-2	301	7217749569031807	build.ninja	84651227f69a8621
-692	895	7217747720152254	Ejercicios_STL.exe	2560a4d5cb1718df
-2	212	7217749569031807	build.ninja	84651227f69a8621
-1	657	7217749576370442	CMakeFiles/Ejercicios_STL.dir/matematicas.cpp.obj	62396996245728e9
+10	155	7217753481805359	CMakeFiles/Ejercicios_STL.dir/matematicas.cpp.obj	62396996245728e9
+3	508	7217753485339470	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+2	212	7217754710840227	build.ninja	84651227f69a8621
 659	814	7217749577861639	Ejercicios_STL.exe	69e4fd21892b35a5
+4	644	7217761340092023	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+3	500	7217761747566675	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+5	530	7217763332615496	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+4	277	7217766406138425	CMakeFiles/Ejercicios_STL.dir/matematicas.cpp.obj	62396996245728e9
+279	465	7217766407938415	Ejercicios_STL.exe	52aa353d4f4c712c

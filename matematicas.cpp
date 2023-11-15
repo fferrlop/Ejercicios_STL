@@ -1,6 +1,8 @@
-#include <iostream>
-
-//Funciones
+//
+// Created by Francisco on 15/11/2023.
+//
+#include "matematicas.h"
+#include <cmath>
 
 namespace Matematicas {
 
@@ -22,42 +24,14 @@ namespace Matematicas {
 
     int potencia(int a, int b) {
         int resultado = 1;
-        for (int i = 0; i < b; i++) {
+        for (int i = 0; i < b; ++i) {
             resultado *= a;
         }
         return resultado;
     }
 
     int raiz(int a) {
-        int resultado = 0;
-        for (int i = 0; i < a; i++) {
-            if (i * i == a) {
-                resultado = i;
-            }
-        }
-        return resultado;
+        return sqrt(a);
     }
+
 }
-
-
-//Operaciones
-
-    int main() {
-
-        std::cout << "Suma: " << Matematicas::suma(8, 2) << std::endl;
-
-        std::cout << "Resta: " << Matematicas::resta(6, 3) << std::endl;
-
-        std::cout << "Multiplicacion: " << Matematicas::multiplicacion(4, 2) << std::endl;
-
-        std::cout << "Division: " << Matematicas::division(12, 3) << std::endl;
-
-        std::cout << "Potencia: " << Matematicas::potencia(2, 3) << std::endl;
-
-        std::cout << "Raiz: " << Matematicas::raiz(16) << std::endl;
-
-
-
-        return 0;
-    }
-
