@@ -55,12 +55,6 @@ build CMakeFiles/Ejercicios_STL.dir/main.cpp.obj: CXX_COMPILER__Ejercicios_STL_u
   OBJECT_DIR = CMakeFiles\Ejercicios_STL.dir
   OBJECT_FILE_DIR = CMakeFiles\Ejercicios_STL.dir
 
-build CMakeFiles/Ejercicios_STL.dir/matematicas.cpp.obj: CXX_COMPILER__Ejercicios_STL_unscanned_Debug C$:/Users/Francisco/CLionProjects/Ejercicios_STL/matematicas.cpp || cmake_object_order_depends_target_Ejercicios_STL
-  DEP_FILE = CMakeFiles\Ejercicios_STL.dir\matematicas.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\Ejercicios_STL.dir
-  OBJECT_FILE_DIR = CMakeFiles\Ejercicios_STL.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Ejercicios_STL
@@ -69,7 +63,7 @@ build CMakeFiles/Ejercicios_STL.dir/matematicas.cpp.obj: CXX_COMPILER__Ejercicio
 #############################################
 # Link the executable Ejercicios_STL.exe
 
-build Ejercicios_STL.exe: CXX_EXECUTABLE_LINKER__Ejercicios_STL_Debug CMakeFiles/Ejercicios_STL.dir/main.cpp.obj CMakeFiles/Ejercicios_STL.dir/matematicas.cpp.obj
+build Ejercicios_STL.exe: CXX_EXECUTABLE_LINKER__Ejercicios_STL_Debug CMakeFiles/Ejercicios_STL.dir/main.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Ejercicios_STL.dir
