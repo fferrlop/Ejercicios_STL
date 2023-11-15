@@ -50,6 +50,13 @@ std::cout << "Ejercicio 3: Relacion entre clase y espacio de nombres" << std::en
             std::cout << "Perimetro: " << c.calcularPerimetro() << std::endl;
 
 
+//Ejercicio 4: Declaracion de subespacios de nombres
+
+std::cout << "--------------------------------------------------------------------------------" << std::endl;
+std::cout << "Ejercicio 4: Declaracion de subespacios de nombres" << std::endl;
+
+
+
 
         return 0;
     }
