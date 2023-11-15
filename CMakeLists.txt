@@ -14,7 +14,4 @@ add_executable(Ejercicios_STL main.cpp
         cuadrado.h
         ciencias.cpp
         ciencias.h
-        ciencias.cpp
-        ciencias.cpp
-        ciencias.cpp
 )

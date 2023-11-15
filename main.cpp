@@ -5,6 +5,9 @@
 #include "cuadrado.h"
 #include <cmath>
 #include "ciencias.h"
+#include <vector>
+#include <map>
+#include <set>
 
 
 //Operaciones
@@ -56,7 +59,27 @@ std::cout << "Ejercicio 3: Relacion entre clase y espacio de nombres" << std::en
 std::cout << "--------------------------------------------------------------------------------" << std::endl;
 std::cout << "Ejercicio 4: Declaracion de subespacios de nombres" << std::endl;
 
-        std::cout << "Energia: " << Ciencias::Fisica::calcularEnergia(1) << std::endl;
+        //std::cout << "Energia: " << Ciencias::Fisica::calcularEnergia(1) << std::endl;
+
+
+//Ejercicio 5: Presentacion de la STL
+
+std::cout << "--------------------------------------------------------------------------------" << std::endl;
+std::cout << "Ejercicio 5: Presentacion de la STL" << std::endl;
+
+
+        std::vector<int> numeros {1, 2, 3, 4, 5};
+        numeros.push_back(6);
+
+
+        std::map<std::string, int> edad;
+        edad["Juan"] = 25;
+        edad.erase("Juan");
+
+
+        std::set<int> conjunto {1, 2, 3, 4, 5};
+        conjunto.insert(6);
+        conjunto.erase(1);
 
 
         return 0;

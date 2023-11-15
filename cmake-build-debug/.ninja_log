@@ -1,9 +1,21 @@
 # ninja log v5
 4	277	7217766406138425	CMakeFiles/Ejercicios_STL.dir/matematicas.cpp.obj	62396996245728e9
-5	742	7217876562956466	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
-21	260	7217876558119827	CMakeFiles/Ejercicios_STL.dir/ciencias.cpp.obj	cbcaeb4517cd277c
-1	301	7217877932717979	build.ninja	84651227f69a8621
+15	261	7217881758151473	CMakeFiles/Ejercicios_STL.dir/ciencias.cpp.obj	cbcaeb4517cd277c
+4	853	7217881764046864	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+2	223	7217896904006142	build.ninja	84651227f69a8621
 93	295	7217795442072738	Ejercicios_STL.exe	6483ff3eeb6130d1
-14	262	7217876558119827	CMakeFiles/Ejercicios_STL.dir/circulo.cpp.obj	5ce3d3b236ccd961
 23	276	7217775893284615	CMakeFiles/Ejercicios_STL.dir/triangulo.cpp.obj	2c18df3a9475d197
+14	262	7217876558119827	CMakeFiles/Ejercicios_STL.dir/circulo.cpp.obj	5ce3d3b236ccd961
 5	288	7217784790199861	CMakeFiles/Ejercicios_STL.dir/cuadrado.cpp.obj	da79308d73c7439c
+11	171	7217896928333753	CMakeFiles/Ejercicios_STL.dir/ciencias.cpp.obj	cbcaeb4517cd277c
+5	590	7217896932523454	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+4	807	7217897689544927	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+6	1272	7217910541950386	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+1273	1508	7217910544289556	Ejercicios_STL.exe	cac36542f31970fd
+11	92	7217913932731674	CMakeFiles/Ejercicios_STL.dir/ciencias.cpp.obj	cbcaeb4517cd277c
+4	1206	7217913943833143	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+1206	1449	7217913946242436	Ejercicios_STL.exe	cac36542f31970fd
+5	1013	7217914344958170	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+1014	1221	7217914346976051	Ejercicios_STL.exe	cac36542f31970fd
+4	1004	7217914690583004	CMakeFiles/Ejercicios_STL.dir/main.cpp.obj	1bf42f2bd721a20f
+1005	1202	7217914692511580	Ejercicios_STL.exe	cac36542f31970fd
