@@ -10,4 +10,6 @@ add_executable(Ejercicios_STL main.cpp
         triangulo.h
         circulo.cpp
         circulo.h
+        cuadrado.cpp
+        cuadrado.h
 )
