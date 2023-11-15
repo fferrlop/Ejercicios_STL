@@ -31,5 +31,15 @@ namespace Matematicas {
         return resultado;
     }
 
+    int raiz(int a) {
+        int resultado = 0;
+        for (int i = 0; i < a; i++) {
+            if (i * i == a) {
+                resultado = i;
+            }
+        }
+        return resultado;
+    }
+
 
 }
