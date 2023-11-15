@@ -12,4 +12,16 @@ namespace Geometria {
 
 };
 
+namespace Geometria {
+    class Circulo {
+    private:
+        double radio;
+
+    public:
+        Circulo(double r);
+
+        double calcularArea();
+        double calcularPerimetro();
+    };
+}
 #endif //EJERCICIOS_STL_CIRCULO_H

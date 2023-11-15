@@ -17,18 +17,13 @@ namespace Geometria {
 
 namespace Geometria {
 
-    class Circulo {
+    Circulo::Circulo(double r) : radio(r) {}
 
-        private:
-            double radio;
+    double Circulo::calcularArea() {
+        return 3.14 * radio * radio;
+    }
 
-        public:
-            Circulo(double r) : radio(r) {}
-            double calcularArea() {
-                return 3.14 * radio * radio;
-            }
-            double calcularPerimetro() {
-                return 2 * 3.14 * radio;
-        }
-    };
+    double Circulo::calcularPerimetro() {
+        return 2 * 3.14 * radio;
+    }
 }

@@ -3,6 +3,8 @@
 #include "triangulo.h"
 #include "circulo.h"
 #include "cuadrado.h"
+#include <cmath>
+
 
 //Operaciones
 
@@ -41,6 +43,11 @@ std::cout << "Ejercicio 2: Espacio de nombres repartido entre diferentes archivo
 
 std::cout << "--------------------------------------------------------------------------------" << std::endl;
 std::cout << "Ejercicio 3: Relacion entre clase y espacio de nombres" << std::endl;
+
+        Geometria::Circulo c(5);
+
+            std::cout << "Area: " << c.calcularArea() << std::endl;
+            std::cout << "Perimetro: " << c.calcularPerimetro() << std::endl;
 
 
 
