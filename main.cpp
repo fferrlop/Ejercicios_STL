@@ -1,9 +1,14 @@
 #include <iostream>
 #include "matematicas.h"
+#include "triangulo.h"
 
 //Operaciones
 
     int main() {
+
+//Ejercicio1: Utilización completa de un espacio de nombres
+
+std::cout << "Ejercicio 1: Utilización completa de un espacio de nombres" << std::endl;
 
         std::cout << "Suma: " << Matematicas::suma(8, 2) << std::endl;
 
@@ -18,6 +23,12 @@
         std::cout << "Raiz: " << Matematicas::raiz(16) << std::endl;
 
 
+//Ejercicio 2: Espacio de nombres repartido entre diferentes archivos
+
+std::cout << "--------------------------------------------------------------------------------" << std::endl;
+std::cout << "Ejercicio 2: Espacio de nombres repartido entre diferentes archivos" << std::endl;
+
+        std::cout << "Area del triangulo: " << Geometria::calcularAreaTriangulo(4, 2) << std::endl;
 
         return 0;
     }
