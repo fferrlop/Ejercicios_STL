@@ -1,7 +1,8 @@
 #include <iostream>
+#include "matematicas.cpp"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    return 0;
+
+    std::cout << "Suma: " << Matematicas::suma(8,2) << std::endl;
 }
 
