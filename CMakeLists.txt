@@ -12,4 +12,9 @@ add_executable(Ejercicios_STL main.cpp
         circulo.h
         cuadrado.cpp
         cuadrado.h
+        ciencias.cpp
+        ciencias.h
+        ciencias.cpp
+        ciencias.cpp
+        ciencias.cpp
 )

@@ -4,6 +4,7 @@
 #include "circulo.h"
 #include "cuadrado.h"
 #include <cmath>
+#include "ciencias.h"
 
 
 //Operaciones
@@ -55,7 +56,7 @@ std::cout << "Ejercicio 3: Relacion entre clase y espacio de nombres" << std::en
 std::cout << "--------------------------------------------------------------------------------" << std::endl;
 std::cout << "Ejercicio 4: Declaracion de subespacios de nombres" << std::endl;
 
-
+        std::cout << "Energia: " << Ciencias::Fisica::calcularEnergia(1) << std::endl;
 
 
         return 0;
